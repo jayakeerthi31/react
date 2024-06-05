@@ -4,7 +4,8 @@ import Navbar from './Components/Navbar';
 import {BrowserRouter as Router,Routes,Route} from 'react-router-dom';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Dashboard from './Components/Dashboard'; 
+//import Dashboard from './Components/Dashboard'; 
+import Newdash from './Components/Newdash'
 import Equipments from './Components/Equipments';
 import Calories from './Components/Calories';
 import Statistics from './Components/Statistics';
@@ -21,7 +22,7 @@ function App() {
             <Col sm={2}><Navbar /></Col>
             <Col sm={10}>
                 <Routes>
-                 <Route path='/react' exact Component={Dashboard}/>
+                 <Route path='/react' exact Component={Newdash}/>
                   <Route path ='/Equipments' exact Component={Equipments}/>
                   <Route path ='/Calories' exact Component={Calories}/>
                   <Route path ='/Statistics' exact Component={Statistics}/>
