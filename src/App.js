@@ -22,7 +22,7 @@ function App() {
             <Col sm={2}><Navbar /></Col>
             <Col sm={10}>
                 <Routes>
-                 <Route path='/reactapp' exact Component={Newdash}/>
+                 <Route path='/react' exact Component={Newdash}/>
                   <Route path ='/Equipments' exact Component={Equipments}/>
                   <Route path ='/Calories' exact Component={Calories}/>
                   <Route path ='/Statistics' exact Component={Statistics}/>
