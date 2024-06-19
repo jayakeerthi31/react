@@ -14,7 +14,7 @@ function Navbar() {
         <h1>EXPLORE</h1>
         <Icon/>
       <ul className='myul'>
-        <li><DashboardIcon/><Link to='/react'><p className='test'>Dashboard</p></Link></li>
+        <li><DashboardIcon/><Link to='/reactapp'><p className='test'>Dashboard</p></Link></li>
         <li><FitnessCenterIcon/><Link to='/Equipments'><p className='test'>Equipments</p></Link></li>
         <li><NoFoodIcon/><Link to ='/Calories'><p className='test'>Calories</p></Link></li>
         <li><AssessmentIcon/><Link to='/Statistics'><p className='test'>Statistics</p></Link></li>
